@@ -1,0 +1,115 @@
+{
+  "prod": {
+    "products": [
+      {
+        "id": 1,
+        "name": "reMarkable 1",
+        "description": "Discontinued",
+        "price": 3990,
+        "Marker": {
+          "select": "true",
+          "type": "MarkerPlus"
+        },
+        "Folio": {
+          "select": "true",
+          "specs": {
+            "model": "",
+            "variant": "",
+            "material": ""
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "reMarkable 2",
+        "description": "Replace your notebooks and printouts with the only tablet that feels like paper. All your handwritten notes, to-dos, PDFs, and ebooks, perfectly organized and in one place.",
+        "price": 3990,
+        "Marker": {
+          "select": "true",
+          "type": "MarkerPlus"
+        },
+        "Folio": {
+          "select": true,
+          "specs": {
+            "model": "Folios",
+            "variant": "BookFolio",
+            "material": "Brown"
+          }
+        },
+        "purchaseProductPage": {
+          "Folio": {
+            "material": "SepiaBrown",
+            "keyboard": "English - US"
+          }
+        }
+      }
+    ],
+    "billingDetails": {
+      "email": "test@test.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "country": "Norway",
+      "addressLine1": "Test",
+      "addressLine2": "Adress",
+      "postalCode": "0788",
+      "city": "Oslo",
+      "phoneNumber": "91111111",
+      "payment": {
+        "type": "card",
+        "expiry": "04/2026",
+        "cvc": "123"
+      }
+    }
+  },
+  "dev": {
+    "products": [
+      {
+        "id": 1,
+        "name": "reMarkable 1",
+        "description": "Replace your notebooks and printouts with the only tablet that feels like paper. All your handwritten notes, to-dos, PDFs, and ebooks, perfectly organized and in one place.",
+        "price": 3990,
+        "Marker": {
+          "select": "true",
+          "type": "MarkerPlus"
+        },
+        "Folio": {
+          "select": "true",
+          "specs": {
+            "model": "",
+            "variant": "",
+            "material": ""
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "reMarkable 2",
+        "description": "Replace your notebooks and printouts with the only tablet that feels like paper. All your handwritten notes, to-dos, PDFs, and ebooks, perfectly organized and in one place.",
+        "price": 3990,
+        "Marker": {
+          "select": "true",
+          "type": "MarkerPlus"
+        },
+        "Folio": {
+          "select": "true",
+          "specs": {
+            "model": "Sturdy protection",
+            "variant": "Book Folio",
+            "material": "Brown"
+          }
+        }
+      }
+    ],
+    "billingDetails": {
+      "email": "test@test.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "country": "",
+      "addressLine1": "",
+      "addressLine2": "",
+      "postalCode": "",
+      "city": "",
+      "phoneNumber": ""
+    }
+  }
+}
