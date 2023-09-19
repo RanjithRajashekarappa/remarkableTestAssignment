@@ -21,9 +21,9 @@
 
 1. Clone the project.
 2. Run `npm install` to download all dependencies. (Please install Node and Node Package Manager if they are not already installed on your machine).
-3. Run the following command to execute the tests:
-4. Run the following command to generate a consolidated output file for all the tests:
-5. Run the following command to generate the final test execution report in HTML format. You will find the `output.html` file generated in the `screenshots` folder:
+3. Run the following command to execute the tests:npx cypress run --env productName='reMarkable 2',env='prod' --reporter mochawesome --headed
+4. Run the following command to generate a consolidated output file for all the tests:npx mochawesome-merge cypress/reports/*.json -o cypress/reports/output.json
+5. Run the following command to generate the final test execution report in HTML format. You will find the `output.html` file generated in the `screenshots` folder:npx marge cypress/reports/output.json --reportDir ./ --inline
 
 
 6. In case of any test failures, you will also see the attached screenshots in the test report.
