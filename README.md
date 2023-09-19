@@ -25,6 +25,7 @@
 4. Run the following command to generate a consolidated output file for all the tests:
 5. Run the following command to generate the final test execution report in HTML format. You will find the `output.html` file generated in the `screenshots` folder:
 
+
 6. In case of any test failures, you will also see the attached screenshots in the test report.
 
 ## Approach
@@ -44,6 +45,8 @@ The framework I designed can be scaled to test product purchases from the home p
 3. `Data.json` residing in the `fixtures` folder contains all the data required to test different products and accessory selections. If reMarkable introduces new products, updating the JSON file with those products should be sufficient to run the tests (assuming UI consistency is maintained).
 
 4. I've created a `locators.ts` file under the `support` folder, which serves as a locator repository. This helps keep all locators stored in one place and makes updates easier.
+
+
 
 
 
